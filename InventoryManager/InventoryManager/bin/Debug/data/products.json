@@ -1,0 +1,100 @@
+[
+  {
+    "Id": 1,
+    "ProductType": "Mouse",
+    "Name": "Logitech MX",
+    "Quantity": 10,
+    "Type": null
+  },
+  {
+    "Id": 2,
+    "ProductType": "Keyboard",
+    "Name": "Keychron K6",
+    "Quantity": 5,
+    "Type": null
+  },
+  {
+    "Id": 3,
+    "ProductType": "Monitor",
+    "Name": "Dell 27",
+    "Quantity": 3,
+    "Type": null
+  },
+  {
+    "Id": 4,
+    "ProductType": "Mouse",
+    "Name": "Razer DeathAdder",
+    "Quantity": 0,
+    "Type": null
+  },
+  {
+    "Id": 5,
+    "ProductType": "Mouse",
+    "Name": "Logitech MX",
+    "Quantity": 10,
+    "Type": null
+  },
+  {
+    "Id": 6,
+    "ProductType": "Mouse",
+    "Name": "Logitech MX",
+    "Quantity": 10,
+    "Type": null
+  },
+  {
+    "Id": 7,
+    "ProductType": "Keyboard",
+    "Name": "Keychron",
+    "Quantity": 5,
+    "Type": null
+  },
+  {
+    "Id": 8,
+    "ProductType": "Monitor",
+    "Name": "Dell",
+    "Quantity": 3,
+    "Type": null
+  },
+  {
+    "Id": 9,
+    "ProductType": "Watch",
+    "Name": "Apple",
+    "Quantity": 1,
+    "Type": null
+  },
+  {
+    "Id": 10,
+    "ProductType": "Mouse",
+    "Name": "Logitech MX",
+    "Quantity": 10,
+    "Type": null
+  },
+  {
+    "Id": 11,
+    "ProductType": "Mouse",
+    "Name": "Logitech MX",
+    "Quantity": 10,
+    "Type": null
+  },
+  {
+    "Id": 12,
+    "ProductType": "Keyboard",
+    "Name": "Keychron",
+    "Quantity": 5,
+    "Type": null
+  },
+  {
+    "Id": 13,
+    "ProductType": "Monitor",
+    "Name": "Dell",
+    "Quantity": 3,
+    "Type": null
+  },
+  {
+    "Id": 14,
+    "ProductType": "Watch",
+    "Name": "Apple",
+    "Quantity": 1,
+    "Type": null
+  }
+]

@@ -1,0 +1,13 @@
+C:\Users\JCE\source\repos\Inventory\InventoryManager\InventoryManager\bin\Debug\InventoryManager.exe
+C:\Users\JCE\source\repos\Inventory\InventoryManager\InventoryManager\obj\Debug\InventoryManager.csprojAssemblyReference.cache
+C:\Users\JCE\source\repos\Inventory\InventoryManager\InventoryManager\obj\Debug\InventoryManager.InventoryForm.resources
+C:\Users\JCE\source\repos\Inventory\InventoryManager\InventoryManager\obj\Debug\InventoryManager.Properties.Resources.resources
+C:\Users\JCE\source\repos\Inventory\InventoryManager\InventoryManager\obj\Debug\InventoryManager.csproj.GenerateResource.cache
+C:\Users\JCE\source\repos\Inventory\InventoryManager\InventoryManager\obj\Debug\InventoryManager.csproj.CoreCompileInputs.cache
+C:\Users\JCE\source\repos\Inventory\InventoryManager\InventoryManager\bin\Debug\InventoryManager.exe.config
+C:\Users\JCE\source\repos\Inventory\InventoryManager\InventoryManager\bin\Debug\InventoryManager.pdb
+C:\Users\JCE\source\repos\Inventory\InventoryManager\InventoryManager\bin\Debug\Newtonsoft.Json.dll
+C:\Users\JCE\source\repos\Inventory\InventoryManager\InventoryManager\bin\Debug\Newtonsoft.Json.xml
+C:\Users\JCE\source\repos\Inventory\InventoryManager\InventoryManager\obj\Debug\InventoryManager.csproj.CopyComplete
+C:\Users\JCE\source\repos\Inventory\InventoryManager\InventoryManager\obj\Debug\InventoryManager.exe
+C:\Users\JCE\source\repos\Inventory\InventoryManager\InventoryManager\obj\Debug\InventoryManager.pdb
