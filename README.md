@@ -14,6 +14,7 @@ CRUD(Create, Read, Update, Delete) 기능을 구현했습니다.
 제품 등록, 수정, 검색 및 재고 부족 조회 기능을 제공합니다.
 
 GitHub Repository
+
 : https://github.com/Kimwonbeom0102/InventoryManager
 
 ## 주요 기능
@@ -39,8 +40,9 @@ GitHub Repository
 회원 등록, 로그인 기능 및 관리자 권한 구분 기능을 구현했습니다.
 
 GitHub Repository
+
 : https://github.com/Kimwonbeom0102/MemebershipManager
-- 
+
 ## 주요 기능
 
 - 회원 등록 / 수정 / 삭제
