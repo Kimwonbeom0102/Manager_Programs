@@ -16,6 +16,8 @@ namespace InventoryManager
         private ProductService productService;
 
         private int selectedProductId;
+
+        private const int LOW_STOCK_THRESHOLD = 5;
         
         public InventoryForm()
         {
@@ -186,7 +188,7 @@ namespace InventoryManager
                 int id = Convert.ToInt32(dgvProducts.SelectedRows[0].Cells["Id"].Value);
                 int amount = (int)numStockAmount.Value;
 
-                productService.DecreaseStock(id, amount);
+                productService.IncreaseStock(id, amount);
 
                 RefreshProducts();
             }
@@ -208,10 +210,87 @@ namespace InventoryManager
 
                 int id = Convert.ToInt32(dgvProducts.SelectedRows[0].Cells["Id"].Value);
                 int amount = (int)numStockAmount.Value;
-
-                productService.IncreaseStock(id, amount);
+                
+                productService.DecreaseStock(id, amount);
 
                 RefreshProducts();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void btnLowStock_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                var result = productService.GetLowStockProducts(LOW_STOCK_THRESHOLD);
+
+                dgvProducts.DataSource = null;
+                dgvProducts.DataSource = result;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void btnOutOfStock_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                int threshold = (int)numQuantity.Value;
+
+                var result = productService.GetOutOfStockProducts();
+
+                dgvProducts.DataSource = null;
+                dgvProducts.DataSource = result;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void btnSortName_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                var result = productService.GetProductsSortedByName();
+
+                dgvProducts.DataSource = null;
+                dgvProducts.DataSource = result;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void btnSortQuantity_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                var result = productService.GetProductsSortedByQuantity();
+
+                dgvProducts.DataSource = null;
+                dgvProducts.DataSource = result;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void btnSortQuantityDesc_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                var result = productService.GetProductsSortedByQuantity();
+
+                dgvProducts.DataSource = null;
+                dgvProducts.DataSource = result;
             }
             catch (Exception ex)
             {

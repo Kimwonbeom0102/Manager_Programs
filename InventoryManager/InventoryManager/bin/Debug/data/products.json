@@ -3,7 +3,7 @@
     "Id": 1,
     "ProductType": "Mouse",
     "Name": "Logitech MX",
-    "Quantity": 10,
+    "Quantity": 15,
     "Type": null
   },
   {
@@ -24,7 +24,7 @@
     "Id": 4,
     "ProductType": "Mouse",
     "Name": "Razer DeathAdder",
-    "Quantity": 0,
+    "Quantity": 3,
     "Type": null
   },
   {
@@ -66,7 +66,7 @@
     "Id": 10,
     "ProductType": "Mouse",
     "Name": "Logitech MX",
-    "Quantity": 10,
+    "Quantity": 0,
     "Type": null
   },
   {
@@ -94,6 +94,27 @@
     "Id": 14,
     "ProductType": "Watch",
     "Name": "Apple",
+    "Quantity": 1,
+    "Type": null
+  },
+  {
+    "Id": 15,
+    "ProductType": "Mouse",
+    "Name": "logitech aa",
+    "Quantity": 6,
+    "Type": null
+  },
+  {
+    "Id": 16,
+    "ProductType": "Mouse",
+    "Name": "logitech abc",
+    "Quantity": 7,
+    "Type": null
+  },
+  {
+    "Id": 17,
+    "ProductType": "aaaa",
+    "Name": "aaaa",
     "Quantity": 1,
     "Type": null
   }

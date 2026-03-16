@@ -120,7 +120,6 @@
             // lblSearch
             // 
             this.lblSearch.AutoSize = true;
-            this.lblSearch.Enabled = false;
             this.lblSearch.Location = new System.Drawing.Point(20, 35);
             this.lblSearch.Name = "lblSearch";
             this.lblSearch.Size = new System.Drawing.Size(43, 15);
@@ -340,6 +339,7 @@
             this.btnSortQuantityDesc.TabIndex = 4;
             this.btnSortQuantityDesc.Text = "수량 역순";
             this.btnSortQuantityDesc.UseVisualStyleBackColor = true;
+            this.btnSortQuantityDesc.Click += new System.EventHandler(this.btnSortQuantityDesc_Click);
             // 
             // btnSortQuantity
             // 
@@ -349,6 +349,7 @@
             this.btnSortQuantity.TabIndex = 3;
             this.btnSortQuantity.Text = "수량순";
             this.btnSortQuantity.UseVisualStyleBackColor = true;
+            this.btnSortQuantity.Click += new System.EventHandler(this.btnSortQuantity_Click);
             // 
             // btnSortName
             // 
@@ -358,6 +359,7 @@
             this.btnSortName.TabIndex = 2;
             this.btnSortName.Text = "이름순";
             this.btnSortName.UseVisualStyleBackColor = true;
+            this.btnSortName.Click += new System.EventHandler(this.btnSortName_Click);
             // 
             // btnOutOfStock
             // 
@@ -367,6 +369,7 @@
             this.btnOutOfStock.TabIndex = 1;
             this.btnOutOfStock.Text = "품절 조회";
             this.btnOutOfStock.UseVisualStyleBackColor = true;
+            this.btnOutOfStock.Click += new System.EventHandler(this.btnOutOfStock_Click);
             // 
             // btnLowStock
             // 
@@ -376,9 +379,11 @@
             this.btnLowStock.TabIndex = 0;
             this.btnLowStock.Text = "재고 부족";
             this.btnLowStock.UseVisualStyleBackColor = true;
+            this.btnLowStock.Click += new System.EventHandler(this.btnLowStock_Click);
             // 
             // InventoryForm
             // 
+            this.AcceptButton = this.btnSearch;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1084, 889);

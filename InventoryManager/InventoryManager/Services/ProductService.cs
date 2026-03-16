@@ -233,69 +233,52 @@ namespace InventoryManager.Services
             Save();
         }
 
-        // 재고 부족 제품 조회 메서드
-        // 특정 기준(threshold) 이하의 재고를 가진 제품을 찾아
-        // 재고 부족 상태를 확인하기 위해 사용
+        // 재고 부족 제품 조회
+        // threshold 이하인 제품만 반환
         public List<Product> GetLowStockProducts(int threshold)
         {
-            // 입력값 검증
-            // threshold가 음수이면 의미 없는 값이므로 예외 처리
             if (threshold < 0)
             {
                 throw new Exception("재고 기준값은 0 이상이어야 합니다.");
             }
 
-            // 재고 부족 제품 검색
-            // Quantity가 threshold 이하인 제품을 찾는다
-            var result = products
-                .Where(p => p.Quantity <= threshold)
+            return products
+                .Where(p => p.Quantity <= threshold)   // 재고 부족 필터
+                .OrderBy(p => p.Quantity)              // 수량 오름차순 정렬
                 .ToList();
-
-            // 결과 반환
-            return result;
         }
 
-        // 정렬 메서드
-        // 정렬 기준 : 제품 이름
+        // 이름순 정렬
         public List<Product> GetProductsSortedByName()
         {
-            // 제품 있으면 이름 기준으로 정렬
-            var result = products
+            return products
                 .OrderBy(p => p.Name)
                 .ToList();
-
-            return result;
         }
 
         // 정렬 기준 : 제품 수량
         public List<Product> GetProductsSortedByQuantity()
         {
             // 제품 있으면 이름 기준으로 정렬
-            var result = products
+            return products
                 .OrderBy(p => p.Quantity)
                 .ToList();
-
-            return result;
         }
 
         // 정렬 기준 : 제품 수량 역순
         public List<Product> GetProductsSortedByQuantityDesc()
         {
-            var result = products
+            return products
                 .OrderByDescending(p => p.Quantity)
                 .ToList();
-
-            return result;
         }
 
-        // 정렬
+        // 품절
         public List<Product> GetOutOfStockProducts()
         {
-            var result = products
-                .OrderBy(p => p.Quantity <= 0) 
+            return products
+                .Where(p => p.Quantity <= 0)
                 .ToList();
-
-            return result;
         }
     }
 }
