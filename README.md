@@ -3,9 +3,9 @@
 C# WinForms 기반으로 구현한 **재고 관리 프로그램**입니다.  
 제품 등록, 검색, 재고 입출고 관리 및 정렬 기능을 구현했습니다.
 
----
+```
 
-## 프로젝트 구조
+## Architecture
 
 InventoryManager
 ┣ Models
