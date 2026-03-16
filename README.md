@@ -31,16 +31,16 @@ InventoryManager
 ## 실행 화면
 
 ### 전체 재고 관리 화면
-![Inventory Manager](InventoryManager/docs/inventory-main.png)
+![Inventory Manager](InventoryManager/InventoryManager/docs/inventory-main.png)
 
 ### 제품 검색 기능
-![Search](InventoryManagerdocs/inventory-search.png)
+![Search](InventoryManager/InventoryManager/docs/inventory-search.png)
 
 ### 재고 관리 기능 (입고 / 출고)
-![Stock Control](InventoryManagerdocs/inventory-stock.png)
+![Stock Control](InventoryManager/InventoryManager/docs/inventory-stock.png)
 
 ### 조회 및 정렬 기능
-![Sort](InventoryManagerdocs/inventory-sort.png)
+![Sort](InventoryManager/docs/inventory-sort.png)
 
 ---
 
