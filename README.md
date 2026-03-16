@@ -14,6 +14,7 @@ InventoryManager
 ┣ Utils
 ┗ Program.cs
 
+```
 ---
 
 ## 주요 기능
