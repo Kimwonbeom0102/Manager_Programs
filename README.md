@@ -15,7 +15,7 @@ CRUD(Create, Read, Update, Delete) 기능을 구현했습니다.
 
 GitHub Repository
 
-: https://github.com/Kimwonbeom0102/InventoryManager
+: [https://github.com/Kimwonbeom0102/InventoryManager](https://github.com/Kimwonbeom0102/Manager_Programs/tree/main/InventoryManager)
 
 ## 주요 기능
 
